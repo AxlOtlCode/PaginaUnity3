@@ -1,0 +1,91 @@
+body{
+    background-image: url(../IMAGES/Fondo_01.jpg);
+    background-size: 40%;
+    color: aliceblue;
+}
+
+h1{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    border-radius: 3cm;
+    margin: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    margin: 3%;
+    border-radius: 3cm; 
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+article{
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 1%;
+}
+
+section{
+    margin: 1%;
+    border: double 5px rgb(28, 40, 94) ;
+    background-color: rgba(24, 15, 44, 0.8);
+}
+div{
+    text-align: center;
+    margin: 1%;
+}
+section{
+    margin: 3%;
+    border-radius: 5px; 
+    font-family: 'Prompt', sans-serif;   
+}
+.image01{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 0 10px rgb(211, 163, 255));
+    
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    color: #165C5A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-out 200ms;
+    animation: efecto-texto-luz 3s ease-in infinite normal both;
+}
+button:hover{
+    color: #38EDE8;
+    text-shadow: 0 0 3px #38EDE8;
+    animation: none !important;
+}
+
+button::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -3px;
+    top: -3px;
+    border: 3px solid #165C5A;
+    border-radius: 8px;
+    transition: all ease-out 200ms;
+    animation: efecto-luz 3s ease-in infinite normal both;
+}
+.juego2{
+    
+    display: flex;
+    justify-content: center;
+    border: 30px solid rgb(53, 53, 89);
+    
+}
